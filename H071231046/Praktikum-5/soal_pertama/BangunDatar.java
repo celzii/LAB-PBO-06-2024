@@ -182,7 +182,7 @@ class PersegiPanjang extends BangunDatar{
     }
 
     public double luas(){
-        this.luas = getPanjang()*getLuas();
+        this.luas = getPanjang()*getLebar();
         return this.luas;
     }
 
