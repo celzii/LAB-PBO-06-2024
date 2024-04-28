@@ -28,8 +28,8 @@ public class BangunRuang{
 
     public BangunRuang(int panjang, int lebar, int tinggi){
         this.panjang = panjang;
-        this.sisi = lebar;
-        this.lebar = tinggi;
+        this.lebar = lebar;
+        this.tinggi = tinggi;
     }
 
     public BangunRuang(int tinggi, double jariJari){
